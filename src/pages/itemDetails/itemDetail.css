@@ -1,0 +1,16 @@
+
+
+.item-detail{
+ 
+  align-items:center;
+}
+.item1{
+  display: block;
+  position: relative;
+  background: linear-gradient(to right,white, rgb(66, 66, 69));
+
+}
+.item3{
+ 
+  position: relative;
+}

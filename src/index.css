@@ -1,0 +1,53 @@
+/* src/index.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  padding: 20px;
+  background: linear-gradient(to right, red, blue);
+
+}
+
+.filter-sidebar {
+  width: 250px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.product-list {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: calc(33% - 20px);
+}
+
+.product-card img {
+  max-width: 100%;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+}
